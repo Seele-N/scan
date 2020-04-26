@@ -1,0 +1,127 @@
+// detail
+.ul-wrap{
+  width: 100%;
+  overflow: auto;
+  // background: #f9fbff;
+}
+.unit{
+  color:#23479c;
+}
+.detail-wrap, .el-tab-detail-wrap{
+  // min-height: 650px;
+  min-width: 1150px;
+  padding: 0px 0 20px 50px;
+  margin-top: 10px;
+  background: #fff;
+  font-size: 14px;
+  li{
+    padding: 20px 0;
+    .li-width{
+      float: left;
+      min-width: 100px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .li-content-width{
+      float: left;
+      width: 820px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .height-button {
+        padding: 10px;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        background: #286090;
+        border-color: #204d74;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        &:hover{
+          cursor: pointer;
+          background: #204d74;
+        }
+      }
+      .prev{
+        margin-right: 5px;
+      }
+      .next{
+        margin-left: 5px;
+      }
+    }
+    .li-content-height{
+      height: 260px;
+      width: 80% ;//800px
+      overflow-y: auto;
+      word-break:break-all;
+      // margin-top: 20px;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .li-content-link{
+      color: #45a0fe;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .el-table th,
+  .el-table tr {
+    background: transparent !important;
+  }
+}
+.el-tab-wrap{
+  min-width: 1150px;
+  margin: 10px 0 20px 0;
+}
+.el-tab-detail-wrap{
+  padding: 10px;
+}
+.describe-detail-wrap{
+  li{
+    padding: 10px;
+    .li-width{
+      float: left;
+      min-width: 100px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .li-content-width{
+      float: left;
+      width: 820px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .li-content-height{
+      height: 260px;
+      width: 80% ;//800px
+      overflow-y: auto;
+      word-break:break-all;
+      // margin-top: 20px;
+      border: 1px solid #d7d7d7;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .li-content-link{
+      color: #45a0fe;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+.describe-title{
+  padding: 0px 0 20px 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px ) {
+  .el-tab-wrap{
+    margin-left: 25px;
+  }
+}

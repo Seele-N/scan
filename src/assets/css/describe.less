@@ -1,0 +1,78 @@
+.describe-title-wrap{
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  margin: 20px 0 0 0;
+  background: #fff;
+  // background: url("../imgs/breadNav.png");
+  .title{
+    position: absolute;
+    z-index: 2;
+    color: #23479c;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    top: 25px;
+    left: 28px;
+  }
+  .title-content{
+    color: #666;
+    font-size: 14px;
+  }
+  .link-wrap{
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    right: 28px;
+    font-size: 14px;
+    li{
+      display: inline-block;
+      a{
+        color: #666;
+        &:hover{
+          color: #23479c;
+        }
+      }
+    }
+    .current{
+      color: #23479c;
+    }
+  }
+}
+@media screen and (max-width: 768px ) {
+  .describe-title-wrap{
+    position: relative;
+    margin: 40px 0 0 0;
+    // background: #edf1f9;
+    padding: 20px 0;
+    .title{
+      color: #23479c;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      margin: 0 10px;
+    }
+    .title-content{
+      color: #666;
+      font-size: 14px;
+    }
+    .link-wrap{
+      position: absolute;
+      bottom: 20px;
+      right: 10px;
+      font-size: 14px;
+      li{
+        display: inline-block;
+        a{
+          color: #666;
+          &:hover{
+            color: #23479c;
+          }
+        }
+      }
+      .current{
+        color: #23479c;
+      }
+    }
+  }
+}
