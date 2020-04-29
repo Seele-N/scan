@@ -37,7 +37,7 @@ make sure you have node.js,npm,nginx installed
 
 ```bash
 # clone scan repository
-git clone https://github.com/seeleteam/scan
+git clone https://github.com/seele-N/scan
 cd scan
 # install the dependencies
 npm install
